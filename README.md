@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 # Period 3 Anthony's Harem
 
 Hello! We are the Anthony's Harem scrum team. We want to create a space for aspiring game developers to show off their skill or learn new ones. Our website will support "Game Jam" activities which will allow Del Norte (and other high school) students to immerse themselves in the world of game development.
