@@ -1,1 +1,3 @@
-# individ
+# My Individual Repo
+
+hi
