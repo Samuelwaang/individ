@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 # Description
 The create task that we made was a country guessing game that allowed 5 tries, with each incorrect try being followed by a hint. If after the 5 attempts the user still hasn't gotten the answer, they lose. If the user gets it correct, they win and can restart the game with a new country.
 
