@@ -2,6 +2,12 @@
 
 # Samuel's Individual Jekyll
 
-This is where I'm putting all my work.
+[Jekyll link](https://samuelwaang.github.io/individ/)
 
-### Week 0:
+[@Samuelwaang](https://github.com/Samuelwaang)
+
+[Python](https://samuelwaang.github.io/individ/python)
+
+[Notes](https://samuelwaang.github.io/individ/tpt)
+
+[Questions](https://samuelwaang.github.io/individ/tptqs)
