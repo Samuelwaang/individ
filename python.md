@@ -1,6 +1,6 @@
 {% include navigation.html %}
 
-My replit: https://replit.com/@SamuelWang22/individ#main.py
+[My Replit](https://replit.com/@SamuelWang22/individ#main.py) 
 
 ### Week 0: 
 [menu](https://github.com/Samuelwaang/individ/blob/main/main.py)
