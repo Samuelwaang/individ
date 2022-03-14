@@ -11,3 +11,7 @@
 [Notes](https://samuelwaang.github.io/individ/tpt)
 
 [Questions](https://samuelwaang.github.io/individ/tptqs)
+
+## Week 0
+
+[Review Ticket](https://github.com/Samuelwaang/individ/issues/1)
