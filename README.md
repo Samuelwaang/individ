@@ -6,6 +6,10 @@
 
 [Replit Link](https://replit.com/@SamuelWang22/individ#main.py)
 
+[Individual Repository](https://github.com/Samuelwaang/individ)
+
+[Group Repository](https://github.com/jacksongolding/Nut-Team)
+
 ## Week 0
 
 [Review Ticket](https://github.com/Samuelwaang/individ/issues/1)
