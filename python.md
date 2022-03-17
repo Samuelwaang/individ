@@ -7,7 +7,8 @@
 ### Week 0: 
 [menu](https://github.com/Samuelwaang/individ/blob/main/main.py)
 
-```import animation
+```
+import animation
 import dictionary
 main_menu = [
     ["dictionary", dictionary.tester],
@@ -97,7 +98,6 @@ def face_print(position):
     print(sp + "   \_____/  ")
     print(RESET_COLOR)
 
-
 def face():
 
     # loop control variables
@@ -112,6 +112,7 @@ def face():
 ```
 
 tree
+
 ```
 def tree(n):
   for tr in range(n):
@@ -126,9 +127,10 @@ def tree(n):
     
 row = int(input('rows: '))
 tree(row)
-
 ```
+
 Age Change
+
 ```
 def ageChange(age1, age2):
     #print(age1, age2)
