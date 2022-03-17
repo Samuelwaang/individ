@@ -1,7 +1,7 @@
 import animation
-
+import dictionary
 main_menu = [
-    ["menuOption1", None],
+    ["dictionary", dictionary.tester],
 ]
 
 sub_menu = [
@@ -10,6 +10,7 @@ sub_menu = [
 
 patterns_sub_menu = [
     ["Keypad", "keypad.py"],
+    ["Tree", "tree.py"],
     ["Animation", animation.face],
 ]
 
