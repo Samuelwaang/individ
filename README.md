@@ -10,6 +10,16 @@
 
 [Group Repository](https://github.com/jacksongolding/Nut-Team)
 
+## Week 1
+
+[Notes](https://samuelwaang.github.io/individ/tpt)
+
+[Questions](https://samuelwaang.github.io/individ/tptqs)
+
+[Create Task](https://samuelwaang.github.io/individ/createtask)
+
+[Python](https://samuelwaang.github.io/individ/python)
+
 ## Week 0
 
 [Review Ticket](https://github.com/Samuelwaang/individ/issues/1)
