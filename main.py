@@ -1,11 +1,13 @@
 import animation
 import dictionary
+import fibonacci
 main_menu = [
     ["dictionary", dictionary.tester],
 ]
 
 sub_menu = [
     ["Age Change", "agechange.py"],
+    ["Fibonacci", fibonacci.tester],
 ]
 
 patterns_sub_menu = [
