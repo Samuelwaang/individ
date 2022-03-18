@@ -1,6 +1,6 @@
 {% include navigation.html %}
 
-### Week 1
+# Week 1
 
 ## 5.3
 1. I don't think the owner of the computer believed it was intentional. He seemed to laugh it off whenever he was calling the computer racist. I think this happened because the computer was programmed to only detect certain colors, or else it would be very difficult to track a person's face. This likely happened because the man's skin tone may have been too close to maybe a dark color that wasn't coded for. This is harmful, as it excludes certain types of people from using this technology. This is not intended as it is kind of just stupid from a business perspective. HP would just lose money for doing this intentionally. It should be corrected, so people like this man can be included in being able to use this technology. I would probably try to add more color tones to the programming for tracking.
@@ -10,7 +10,7 @@
 
 2. Del Norte crowdsourcing can be done with a survey possibly asking them about their classes. This would allow many people to put in their opinions about a certain class, helping other students decide if they would want to take it or not. Crowdsourcing would help any project, with possible opinions and suggestions about features in a website.
 
-### Week 0
+# Week 0
 
 ## 5.1
 1. 
