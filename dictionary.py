@@ -1,5 +1,6 @@
 InfoDb = []
-InfoDb.append({  
+InfoDb.append({
+  #list
  "Fruit": "Apple",  
  "Taste": "Sweet",  
  "Grows": "Tree",  
@@ -21,22 +22,26 @@ def print_data(n):
     print(", ".join(InfoDb[n]["GrowthConditions"]))
     print()
 
+#for loop
 def for_loop():
     for n in range(len(InfoDb)):
         print_data(n)
 
+#while loopp
 def while_loop(n):
     while n < len(InfoDb):
         print_data(n)
         n += 1
     return
 
+#recursive loop
 def recursive_loop(n):
     if n < len(InfoDb):
         print_data(n)
         recursive_loop(n + 1)
     return
 
+#prints the loops
 def tester():
     print("For loop:")
     for_loop()
