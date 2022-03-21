@@ -63,7 +63,7 @@ def tester():
     
 ```
 
-[fibonacci](https://github.com/Samuelwaang/individ/blob/main/fibonacci.py)
+[fibonacci](https://github.com/Samuelwaang/individ/blob/main/fibonacci.py) (This is in the math main category in the menu)
 
 ```
 def recur_fibonacci(n):
