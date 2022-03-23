@@ -2,18 +2,23 @@ import animation
 import dictionary
 import fibonacci
 main_menu = [
+    
+]
+
+week0_sub_menu = [
+    ["Age Change", "agechange.py"],
+    ["Tree", "tree.py"],
+    ["Animation", animation.face],
+    ["Keypad", "keypad.py"],
+]
+
+week1_sub_menu = [
+    ["Fibonacci", fibonacci.tester],
     ["dictionary", dictionary.tester],
 ]
 
-sub_menu = [
-    ["Age Change", "agechange.py"],
-    ["Fibonacci", fibonacci.tester],
-]
+week2_sub_menu = [
 
-patterns_sub_menu = [
-    ["Keypad", "keypad.py"],
-    ["Tree", "tree.py"],
-    ["Animation", animation.face],
 ]
 
 border = "=" * 25
@@ -22,16 +27,20 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Math", submenu])
-    menu_list.append(["Patterns", patterns_submenu])
+    menu_list.append(["Week 0", week0_submenu])
+    menu_list.append(["Week 1", week1_submenu])
+    menu_list.append(["Week 2", week2_submenu])
     buildMenu(title, menu_list)
 
-def submenu():
+def week0_submenu():
     title = "Function Submenu" + banner
-    buildMenu(title, sub_menu)
-def patterns_submenu():
+    buildMenu(title, week0_sub_menu)
+def week1_submenu():
     title = "Function Submenu" + banner
-    buildMenu(title, patterns_sub_menu)
+    buildMenu(title, week1_sub_menu)
+def week2_submenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, week2_sub_menu)
 
 def buildMenu(banner, options):
     print(banner)
@@ -68,3 +77,4 @@ def buildMenu(banner, options):
 
 if __name__ == "__main__":
     menu()
+
