@@ -1,24 +1,31 @@
-import animation
-import dictionary
-import fibonacci
+import week0.animation
+from week0 import agechange
+from week0 import keypad
+from week0 import tree
+import week1.dictionary
+import week1.fibonacci
+from week2 import imperativegcd
+from week2 import oop
 main_menu = [
     
 ]
 
 week0_sub_menu = [
-    ["Age Change", "agechange.py"],
-    ["Tree", "tree.py"],
-    ["Animation", animation.face],
-    ["Keypad", "keypad.py"],
+    ["Age Change", agechange.agePrint],
+    ["Tree", tree.treeprint],
+    ["Animation", week0.animation.face],
+    ["Keypad", keypad.keypad],
 ]
 
 week1_sub_menu = [
-    ["Fibonacci", fibonacci.tester],
-    ["dictionary", dictionary.tester],
+    ["Fibonacci", week1.fibonacci.tester],
+    ["Dictionary", week1.dictionary.tester],
 ]
 
 week2_sub_menu = [
-
+    ["GCD", imperativegcd.printgcd],
+    ["OOP Factorial", oop.factorial_tester],
+    ["OOP GCD", oop.gcd_tester],
 ]
 
 border = "=" * 25

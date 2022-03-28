@@ -8,7 +8,8 @@ def tree(n):
       for bark in range(n-1):
           print('  ', end=' ')
       print('||')
-    
-row = int(input('rows: '))
-tree(row)
+
+def treeprint():
+  row = int(input('rows: '))
+  tree(row)
 
