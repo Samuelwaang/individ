@@ -10,7 +10,7 @@
 
 ## Week 2
 
-
+[Review Ticket](https://github.com/Samuelwaang/individ/issues/4)
 
 [5.5,5.6 Notes](https://samuelwaang.github.io/individ/tpt)
 
