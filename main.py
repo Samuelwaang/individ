@@ -1,11 +1,6 @@
-import week0.animation
-from week0 import agechange
-from week0 import keypad
-from week0 import tree
-import week1.dictionary
-import week1.fibonacci
-from week2 import imperativegcd
-from week2 import oop
+from week0 import agechange,keypad,tree,animation
+from week1 import dictionary,fibonacci
+from week2 import imperativegcd,oop
 main_menu = [
     
 ]
@@ -13,13 +8,13 @@ main_menu = [
 week0_sub_menu = [
     ["Age Change", agechange.agePrint],
     ["Tree", tree.treeprint],
-    ["Animation", week0.animation.face],
+    ["Animation", animation.face],
     ["Keypad", keypad.keypad],
 ]
 
 week1_sub_menu = [
-    ["Fibonacci", week1.fibonacci.tester],
-    ["Dictionary", week1.dictionary.tester],
+    ["Fibonacci", fibonacci.tester],
+    ["Dictionary", dictionary.tester],
 ]
 
 week2_sub_menu = [
