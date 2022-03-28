@@ -4,7 +4,7 @@
 ## 5.5
 1. The creative commons license basically means that you don't have copyright over it and allows anyone to use it. This makes sense for our project because we don't care that much about people looking at our code or using it. An MIT license allows people to use the code however they'd like and allow them to make and send out closed-source stuff using this code. GPL License allow people to use the code however they'd like, but doesn't allow them to send out closed-source stuff using this code.
 
-2. The license I chose was creative commons, so if people want they can access and use the code. The stuff we are doing aren't really for personal gain, so it doesn't matter much if other people can use the code.
+2. The license I chose was creative commons, so if people want they can access and use the code. The stuff we are doing aren't really for personal gain, so it doesn't matter much if other people can use the code. ([License Link](https://github.com/Samuelwaang/individ/blob/add-license-1/LICENSE))
 
 ## 5.6
 1. Some of the PII we have done in our websites in CSP is the about me page(s). We put our names, pictures, and hobbies on that page, allowing anyone to be able to access and see this information.
