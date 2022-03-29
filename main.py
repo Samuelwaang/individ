@@ -2,25 +2,24 @@ from week0 import agechange,keypad,tree,animation
 from week1 import dictionary,fibonacci
 from week2 import imperativegcd,oop
 main_menu = [
-    
+    ["Dictionary", dictionary.tester],
 ]
 
-week0_sub_menu = [
-    ["Age Change", agechange.agePrint],
+patterns_sub_menu = [
     ["Tree", tree.treeprint],
     ["Animation", animation.face],
     ["Keypad", keypad.keypad],
 ]
 
-week1_sub_menu = [
-    ["Fibonacci", fibonacci.tester],
-    ["Dictionary", dictionary.tester],
-]
-
-week2_sub_menu = [
-    ["GCD", imperativegcd.printgcd],
+oopMath_sub_menu = [
     ["OOP Factorial", oop.factorial_tester],
     ["OOP GCD", oop.gcd_tester],
+    ["Age Change", agechange.agePrint],
+]
+
+impMath_sub_menu = [
+    ["GCD", imperativegcd.printgcd],
+    ["Fibonacci", fibonacci.tester],
 ]
 
 border = "=" * 25
@@ -29,20 +28,20 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Week 0", week0_submenu])
-    menu_list.append(["Week 1", week1_submenu])
-    menu_list.append(["Week 2", week2_submenu])
+    menu_list.append(["Patterns", patterns_submenu])
+    menu_list.append(["OOP Math", oopMath_submenu])
+    menu_list.append(["Imperative Math", impMath_submenu])
     buildMenu(title, menu_list)
 
-def week0_submenu():
+def patterns_submenu():
     title = "Function Submenu" + banner
-    buildMenu(title, week0_sub_menu)
-def week1_submenu():
+    buildMenu(title, patterns_sub_menu)
+def oopMath_submenu():
     title = "Function Submenu" + banner
-    buildMenu(title, week1_sub_menu)
-def week2_submenu():
+    buildMenu(title, oopMath_sub_menu)
+def impMath_submenu():
     title = "Function Submenu" + banner
-    buildMenu(title, week2_sub_menu)
+    buildMenu(title, impMath_sub_menu)
 
 def buildMenu(banner, options):
     print(banner)
