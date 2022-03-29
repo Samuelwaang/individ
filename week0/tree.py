@@ -1,15 +1,22 @@
-def tree(n):
-  for tr in range(n):
-      for space in range(n-tr):
+def triangle(n):
+  for i in range(n):
+      for j in range(n-i):
           print(' ', end=' ')
-      for leaf in range(2*tr+1):
+      for k in range(2*i+1):
           print('^',end=' ')
       print()
-      for bark in range(n-1):
-          print('  ', end=' ')
-      print('||')
-
+  
+  # Generating recatngle shape
+def rectangle(n):
+  for i in range(n):
+      for j in range(n-1):
+          print(' ', end=' ')
+      print('| | |')
+    
 def treeprint():
   row = int(input('rows: '))
-  tree(row)
+  triangle(row)
+  triangle(row)
+  triangle(row)
+  rectangle(row)
 
