@@ -1,3 +1,9 @@
+def name(n):
+  for s in range(n):
+      for l in range(n-2):
+          print(' ', end=' ')
+      print('(っ◔◡◔)っ ♥ I love u Samuel ♥')
 
-
-print("(っ◔◡◔)っ ♥ Samuel ♥ っ◔◡◔)っ ♥ Samuel ♥ っ◔◡◔)っ ♥ Samuel ♥っ◔◡◔)っ ♥ Samuel ♥ (っ◔◡◔)っ ♥ Samuel ♥ っ◔◡◔)っ ♥ Samuel ♥ っ◔◡◔)っ ♥ Samuel ♥っ◔◡◔)っ ♥ Samuel ♥ (っ◔◡◔)っ ♥ Samuel ♥ っ◔◡◔)っ ♥ Samuel ♥ っ◔◡◔)っ ♥ Samuel ♥っ◔◡◔)っ ♥ Samuel ♥ (っ◔◡◔)っ ♥ Samuel ♥ っ◔◡◔)っ ♥ Samuel ♥ っ◔◡◔)っ ♥ Samuel ♥っ◔◡◔)っ ♥ Samuel ♥")
+def nameprint():
+  row = int(input('rows:'))
+  name(row)

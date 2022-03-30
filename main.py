@@ -1,6 +1,7 @@
 from week0 import agechange,keypad,tree,animation
 from week1 import dictionary,fibonacci
 from week2 import imperativegcd,oop
+from crossover.name import nameprint
 main_menu = [
     ["Dictionary: Dictionary, Lists and Loops", dictionary.tester],
 ]
@@ -9,7 +10,7 @@ patterns_sub_menu = [
     ["Tree", tree.treeprint],
     ["Animation", animation.face],
     ["Keypad", keypad.keypad],
-    ["Name", "crossover/name.py"],
+    ["Name", nameprint],
   
 ]
 
