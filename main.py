@@ -9,7 +9,7 @@ patterns_sub_menu = [
     ["Tree", tree.treeprint],
     ["Animation", animation.face],
     ["Keypad", keypad.keypad],
-    ["Name"],
+    ["Name", "crossover/name.py"],
   
 ]
 
