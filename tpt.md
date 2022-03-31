@@ -8,7 +8,7 @@
 
 <a href="week1actions">Week 1 Actions</a>
 
-<a href="week2notes">Week 2 Notes and Actions</a>
+<a href="week2notes">Week 2 Notes</a>
 
 <a href="week2actions">Week 2 Actions</a>
 
