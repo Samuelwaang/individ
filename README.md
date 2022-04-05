@@ -12,9 +12,9 @@
 
 [Review Ticket](https://github.com/Samuelwaang/individ/issues/4)
 
-[5.5,5.6 Notes](https://samuelwaang.github.io/individ/tpt)
+<a href="week2notes">Week 2 Notes</a>
 
-[5.5,5.6  Questions](https://samuelwaang.github.io/individ/tptqs)
+<a href="week2actions">Week 2 Actions</a>
 
 [Python (OOP factorial and math function)](https://samuelwaang.github.io/individ/python)
 
@@ -22,9 +22,9 @@
 
 [Review Ticket](https://github.com/Samuelwaang/individ/issues/2)
 
-[Notes](https://samuelwaang.github.io/individ/tpt)
+<a href="week1notes">Week 1 Notes</a>
 
-[Questions](https://samuelwaang.github.io/individ/tptqs)
+<a href="week1actions">Week 1 Actions</a>
 
 [Python](https://samuelwaang.github.io/individ/python)
 
@@ -32,9 +32,9 @@
 
 [Review Ticket](https://github.com/Samuelwaang/individ/issues/1)
 
-[Notes](https://samuelwaang.github.io/individ/tpt)
+<a href="week0notes">Week 0 Notes</a>
 
-[Questions](https://samuelwaang.github.io/individ/tptqs)
+<a href="week0actions">Week 0 Actions</a>
 
 [Create Task](https://samuelwaang.github.io/individ/createtask)
 
