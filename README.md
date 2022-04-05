@@ -8,6 +8,10 @@
 
 [Group Repository](https://github.com/jacksongolding/Nut-Team)
 
+## Week 3
+
+[Review Ticket](https://github.com/Samuelwaang/individ/issues/5)
+
 ## Week 2
 
 [Review Ticket](https://github.com/Samuelwaang/individ/issues/4)
