@@ -1,5 +1,8 @@
 {% include navigation.html %}
 
+
+analysis: Anyone can login into the crud part and can look at emails and phone numbers, which may be sensitive info for some. Also, there really isn't a way to logout yet, so this would cause someone else to use someone else's account if they just used that person's computer.
+
 ## Code Snippets:
 
 ### Phone Number
