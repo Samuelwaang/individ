@@ -2,9 +2,14 @@
 
 # Create Task Write Up 
 
+### [Code File](https://github.com/Samuelwaang/individ/blob/main/createTask.html)
+### [Video](https://drive.google.com/file/d/1tiF2pJ7x9IrBg6WgglHJp4vaWA5ZlWTw/view?usp=sharing)
+
 ## 3a. 
 i. The program is a quiz/game where a random fruit is given to the user to answer questions about.
+
 ii. In the video a start buton is pressed, causing the name of the fruit, picture of the fruit, and a question box to appear. The questions were answered in the question box, with some being incorrect and others being correct. The questions that had incorrect answers had their text be changed to red, while the questions that had correct answers had their text be changed to green. After the submit button was pressed, the answers for the incorrectly answered questions and the score were shown at the bottom. Then, the refresh button was clicked to start the game again and a new fruit was shown.
+
 iii. The input of the program are the answers and the outputs are the score, indication of incorrect answers, and correct answers.
 
 ## 3b.
@@ -49,7 +54,9 @@ for (let i = 0; i < 4; i++)
                     }
 ```
 iii. The list is named answerArray.
+
 iv. The data in the list represents the correct answers for all the questions. Each answer corresponds to a certain question and fruit.
+
 v. This list is required to check if the inputted answers by the user are correct or incorrect, which is the most important part of this program. A list like this allows randomization of the fruit type and allows it, based on the question, to correspond to the answer. If this wasn't done, then a bunch of if else statements would've had to been used for each fruit and question variation. So, for example, if a fruit was chosen such as "banana", then for banana and question 1, with an if else statement, it would be checked if the inputted answer is the same as the answer for banana and question 1. If not, it would be marked as incorrect. This would then have to be done with every fruit and question combination.
 
 ## 3c
@@ -104,6 +111,7 @@ ii.
 <input type="submit" value="submit" class="submit" onclick="collect()">
 ```
 iii. This function "collect" is determining the output of the quiz based on the inputted answers of the user. This changes incorrectly answered questions to red text and correctly answered question to green text. This also adds up the score of the user. It also displays the correct answers for questions answered incorrectly. So, this is the part that shows the user if they were correct or incorrect in doing the quiz and how well they did on it.
+
 iv. Another 3 arrays are made. Two (answer and isAnswerCorrect) are used to compare the user inputted answer and actual correct answer to check answers and calculate the score of the user. This is done with if else statements in a for loop. The 4 loop iterates 4 times, each time increasing the question number by 1, so it can check each question's answer. Each time the user is correct, one score is added and that question is changed to be set to a 1 instead of 0 through an array. Then, an if else statement is used (depending on if that question is set 1 or 0) to indicate if a question was answered correctly or incorrectly through a color change. The score will also then be displayed. Then, through another for loop that checks each question, an if statement is used to check if the question is still to 0. If it is, then the correct answer for those specific questions will be displayed.
 
 ## 3d.
