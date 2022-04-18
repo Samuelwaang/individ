@@ -47,7 +47,7 @@ def crud_logout():
         </div>
 ```
 
-### Password Protect a Page
+### Password Protect a Page (search)
 
 ```
 @app_crud.route('/search/')
@@ -80,8 +80,8 @@ def crud_login():
 <img width="841" alt="login page" src="https://user-images.githubusercontent.com/89223557/162538595-1668593c-381b-4d62-8ba2-fac54202710b.PNG">
 <img width="855" alt="phone sign up" src="https://user-images.githubusercontent.com/89223557/162538597-9393b004-c304-48a8-a8d7-db201ce69ce1.PNG">
 
-### Login/Logout
+### Login/Logout on navbar
 
 ![login logout](https://user-images.githubusercontent.com/89223557/162540580-d0d6203d-e5d6-435b-8aff-106fde9e4daf.png)
 
-
+login_required added to search
