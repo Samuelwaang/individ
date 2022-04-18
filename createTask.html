@@ -1,0 +1,177 @@
+{% block content %}
+<html style="background-color:black; font-family:Garamond; color: white; min-height:130%;">
+<head>
+    <style>
+        .imgs {
+            display:block;
+            max-width: 40%;
+            max-height: 4px%;
+            margin-left:20px;
+        }
+        .start {
+            display:block;
+            font-family:"monospace";
+            font-size:22px;
+            color: #000000;
+            text-align:center;
+            border-radius:25px;
+            background-color: #f58c15;
+            padding: 1em 3.5em;
+            margin: 50px auto;
+        }
+        .sText {
+            font-size:17px;
+            font-family:"Britannic Bold";
+            margin-left:20px;
+        }
+        .qs {
+            margin-top:15px;
+        }
+        .qbox {
+            background-color: lightgrey;
+            color: black;
+            width: 550px;
+            padding: 20px;
+            right:40px; top:160px;
+            position: absolute;
+            font-size: 23px;
+
+        }
+        .submit {
+            border-radius: 12px;
+            padding: 1em 3.5em;
+            margin: 12px auto;
+            font-size:14px;
+            color: white;
+            background-color:black;
+        }
+        .refresh {
+            color: white;
+            background-color:black;
+        }
+    </style>
+
+    <script>
+        var answerArray = Array.from(Array(4), () => new Array(4));
+        answerArray[0][0] = 'yellow';
+        answerArray[0][1] = 'yellow';
+        answerArray[0][2] = 'red';
+        answerArray[0][3] = 'red';
+        answerArray[1][0] = 'yes';
+        answerArray[1][1] = 'no';
+        answerArray[1][2] = 'yes';
+        answerArray[1][3] = 'yes';
+        answerArray[2][0] = 'year';
+        answerArray[2][1] = 'year';
+        answerArray[2][2] = 'winter';
+        answerArray[2][3] = 'summer';
+        answerArray[3][0] = 'sour';
+        answerArray[3][1] = 'sweet';
+        answerArray[3][2] = 'tart';
+        answerArray[3][3] = 'sweet';
+
+        const fruit = new Array(4);
+        fruit[0] = "lemon";
+        fruit[1] = "banana";
+        fruit[2] = "pomegranate";
+        fruit[3] = "cherry";
+
+        const pic = new Array(4);
+        pic[0] = 'lemon.jpg';
+        pic[1] = 'banana.jpg';
+        pic[2] = 'pomegranate.jpg';
+        pic[3] = 'cherry.jpg';
+
+        const cf = Math.floor(Math.random() * 4);
+        const temp = fruit[cf];
+        var score = 0;
+        function start() {
+            document.getElementById("start").innerHTML = "The fruit is " + temp;
+            const temp1 = pic[cf]
+            document.getElementById('fruitimg').src = `/static/assets/images/${temp1}`
+            const stuff = document.getElementById("appear");
+            if (stuff.style.display === "none") {
+                stuff.style.display = "block";
+            }
+            const ostuff = document.getElementById("disappear");
+            if (ostuff.style.display === "block") {
+                ostuff.style.display = "none";
+            }
+        }
+
+        function collect(isAnswerCorrect, score) {
+            answer = new Array(4);
+            answer[0] = document.getElementById("col").value;
+            answer[1] = document.getElementById("fru").value;
+            answer[2] = document.getElementById("sea").value;
+            answer[3] = document.getElementById("tas").value;
+
+            isAnswerCorrect = new Array(4).fill(0);
+            idArray = new Array(4);
+            idArray[0]= 'colchange1';
+            idArray[1]= 'colchange2';
+            idArray[2]= 'colchange3';
+            idArray[3]= 'colchange4';
+            score = 0;
+
+            for (let i = 0; i < 4; i++)
+            {
+                if ( answer[i] == answerArray[i][cf] && (score < 4)  )
+                {
+                    score++;
+                    isAnswerCorrect[i] = 1;
+                }
+                if (isAnswerCorrect[i] === 1)
+                {
+                    document.getElementById(idArray[i]).style.color = "#08ab10";
+                }
+                else if (isAnswerCorrect[i] === 0)
+                {
+                    document.getElementById(idArray[i]).style.color = "#e5150f";
+                }
+                document.getElementById("fScore").innerHTML = "Score: "+ score + "/4";
+            }
+            let rightAnswer = ' ';
+            for (let i = 0; i < 4; i++)
+            {
+                if (isAnswerCorrect[i] === 0)
+                {
+                    questionNum = i + 1;
+                    rightAnswer =  rightAnswer.concat("Question " + questionNum + ": " + answerArray[i][cf] + ",  ");
+                }
+            }
+            document.getElementById("incAnswer").innerHTML = "The correct answers are: \n" + rightAnswer;
+        }
+
+        function refresh()
+        {
+            window.location.reload();
+        }
+    </script>
+
+    <div>
+        <button onClick="start()" class="start">Randomize Fruit</button>
+        <p id="start" class="sText"></p>
+        <img id="fruitimg" class="imgs"/>
+    </div>
+    <div>
+        <p id="disappear" style="display:block; margin-left:30px; margin-right:30px;font-size:20px; ">This is a quiz/game where a fruit will be randomly chosen to be asked questions about. The questions will always be the same for each fruit, but the answers will vary. After clicking the button to start, the name of the fruit, a picture of the fruit, and the question box will show. After answering all the questions based on the randomly selected fruit, the submit button will check all the answers, indicating correctness with green and incorrectness with red. At the bottom of the question box, the answers for the incorrectly answered questions will appear. There is also a score at the bottom. To play again, click the "restart" button at the bottom of the question box.   </p>
+    </div>
+    <div class="qbox" id="appear" style="display: none;">
+        <p class="qs" id="colchange1">What is the color of the fruit?</p>
+        <input type="text" id="col" style="width:350px;height:35px;">
+        <p class="qs" id="colchange2">Does this fruit grow from a tree?</p>
+        <input type="text" id="fru" style="width:350px;height:35px;">
+        <p class="qs" id="colchange3">What season does this fruit grow best in? (for year-around put year)</p>
+        <input type="text" id="sea" style="width:350px;height:35px;">
+        <p class="qs" id="colchange4">What is the general taste of this fruit?</p>
+        <input type="text" id="tas" style="width:350px;height:35px;">
+        <br>
+        <input type="submit" value="submit" class="submit" onclick="collect()">
+        <p style="margin-top:15px;" id="fScore">Score:</p>
+        <p style="margin-top:15px;" id="incAnswer"></p>
+        <button type="submit" onClick="refresh()" class="refresh">Refresh</button>
+    </div>
+
+</html>
+{% endblock content %}
