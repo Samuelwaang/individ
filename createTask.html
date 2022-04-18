@@ -52,6 +52,7 @@
     </style>
 
     <script>
+        // array for all the fruit/question combination answers
         var answerArray = Array.from(Array(4), () => new Array(4));
         answerArray[0][0] = 'yellow';
         answerArray[0][1] = 'yellow';
@@ -69,26 +70,28 @@
         answerArray[3][1] = 'sweet';
         answerArray[3][2] = 'tart';
         answerArray[3][3] = 'sweet';
-
+        // array to display name of fruit
         const fruit = new Array(4);
         fruit[0] = "lemon";
         fruit[1] = "banana";
         fruit[2] = "pomegranate";
         fruit[3] = "cherry";
-
+        // array to display picture of fruit
         const pic = new Array(4);
         pic[0] = 'lemon.jpg';
         pic[1] = 'banana.jpg';
         pic[2] = 'pomegranate.jpg';
         pic[3] = 'cherry.jpg';
-
+        // randomizes the fruit and stores it
         const cf = Math.floor(Math.random() * 4);
         const temp = fruit[cf];
         var score = 0;
+        // display fruit name and picture
         function start() {
             document.getElementById("start").innerHTML = "The fruit is " + temp;
             const temp1 = pic[cf]
             document.getElementById('fruitimg').src = `/static/assets/images/${temp1}`
+            // on button click reveal questions and text
             const stuff = document.getElementById("appear");
             if (stuff.style.display === "none") {
                 stuff.style.display = "block";
@@ -113,14 +116,16 @@
             idArray[2]= 'colchange3';
             idArray[3]= 'colchange4';
             score = 0;
-
+// checks each answer
             for (let i = 0; i < 4; i++)
             {
+                //checks if inputed answer is the same as the actual answer, if it is then score is increased and the question is marked as 1
                 if ( answer[i] == answerArray[i][cf] && (score < 4)  )
                 {
                     score++;
                     isAnswerCorrect[i] = 1;
                 }
+                //changes the text color based on correctness
                 if (isAnswerCorrect[i] === 1)
                 {
                     document.getElementById(idArray[i]).style.color = "#08ab10";
@@ -131,6 +136,7 @@
                 }
                 document.getElementById("fScore").innerHTML = "Score: "+ score + "/4";
             }
+            //checks if answer is incorrect, if it is then those questions will have their answers listed
             let rightAnswer = ' ';
             for (let i = 0; i < 4; i++)
             {
@@ -142,7 +148,7 @@
             }
             document.getElementById("incAnswer").innerHTML = "The correct answers are: \n" + rightAnswer;
         }
-
+// reload page (restarts quiz)
         function refresh()
         {
             window.location.reload();
