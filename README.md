@@ -14,6 +14,8 @@
 
 [Create Task](https://samuelwaang.github.io/individ/createtask)
 
+[Review Ticket](https://github.com/Samuelwaang/individ/issues/6)
+
 ## Week 3
 
 [Review Ticket](https://github.com/Samuelwaang/individ/issues/5)
