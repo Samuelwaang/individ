@@ -16,6 +16,8 @@
 
 <a href="studyplan">Study Plan</a>
 
+[Review Ticket](https://github.com/Samuelwaang/individ/issues/8)
+
 ## Week 4
 
 <a href="login">Accounts and Login</a>
