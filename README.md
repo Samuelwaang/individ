@@ -14,6 +14,8 @@
 
 [Create Task](https://samuelwaang.github.io/individ/createtask)
 
+<a href="studyplan">Study Plan</a>
+
 ## Week 4
 
 <a href="login">Accounts and Login</a>
