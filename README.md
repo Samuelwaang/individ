@@ -8,6 +8,10 @@
 
 [Group Repository](https://github.com/jacksongolding/Nut-Team)
 
+## Week 6
+
+<a href="week6correction">Week 6 Corrections</a>
+
 ## Week 5
 
 <a href="week5correction">Week 5 Corrections</a>
