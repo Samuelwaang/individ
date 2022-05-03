@@ -14,6 +14,8 @@
 
 [Review Ticket](https://github.com/Samuelwaang/individ/issues/9)
 
+<a href="studyplan">Study Plan</a>
+
 ## Week 5
 
 <a href="week5correction">Week 5 Corrections</a>
