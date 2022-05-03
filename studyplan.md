@@ -1,6 +1,6 @@
 {% include navigation.html %}
 
-## Week 6
+## Week 2
 
 ### Study Plan:
 
@@ -12,7 +12,7 @@
 
 I got 46/50 on my most recent quiz, so slightly worse than last week but not much different. This time I feel like I didn't do as well because the questions were longer and it was tiring reading them. This time I had trouble with some logic questions and a definition question. However, I was able to understand a lot more definition questions this time as I had reviewed them.
 
-## Week 5
+## Week 1
 
 ### Study Plan:
 
