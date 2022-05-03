@@ -12,6 +12,8 @@
 
 <a href="week6correction">Week 6 Corrections</a>
 
+[Review Ticket](https://github.com/Samuelwaang/individ/issues/9)
+
 ## Week 5
 
 <a href="week5correction">Week 5 Corrections</a>
