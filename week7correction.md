@@ -20,7 +20,12 @@
 
 <img width="626" alt="15" src="https://user-images.githubusercontent.com/89223557/166817883-863f7236-34a1-4afd-a416-03eb537c4715.PNG">
 
-15. 
+15. I got confused with the wording of the answer. I knew that the values were going to be differen, but I just chose the wrong answer. The right answer was that the number of values was the same but the values were different.
 
 <img width="649" alt="16" src="https://user-images.githubusercontent.com/89223557/166817885-ba011596-0579-4b27-ac9a-6137ca8745d3.PNG">
+
+16. I didn't look at the algorithm correctly and missed the equal to part for program b. The correct answer was that the values will be identical in the same order.
+
 <img width="641" alt="36" src="https://user-images.githubusercontent.com/89223557/166817887-370a2954-e0b7-4641-a735-6fd53bf530a0.PNG">
+
+36. I knew that the file was broken down for transmission, but I didn't know how packets were received. The right answer was that the packets have to be reassembled once received.
