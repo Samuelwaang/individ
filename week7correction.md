@@ -24,7 +24,7 @@
 
 <img width="649" alt="16" src="https://user-images.githubusercontent.com/89223557/166817885-ba011596-0579-4b27-ac9a-6137ca8745d3.PNG">
 
-16. I didn't look at the algorithm correctly and missed the equal to part for program b. The correct answer was that the values will be identical in the same order.
+16. I didn't look at the algorithm correctly and missed the equal to part for Program B. The correct answer was that the values will be identical in the same order.
 
 <img width="641" alt="36" src="https://user-images.githubusercontent.com/89223557/166817887-370a2954-e0b7-4641-a735-6fd53bf530a0.PNG">
 
