@@ -12,6 +12,8 @@
 
 <a href="week7correction">Week 7 Corrections</a>
 
+<a href="studyplan">Study Plan</a>
+
 ## Week 6
 
 <a href="week6correction">Week 6 Corrections</a>
