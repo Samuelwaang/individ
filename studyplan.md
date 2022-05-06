@@ -1,5 +1,15 @@
 {% include navigation.html %}
 
+## Week 3
+
+### Study Plan:
+
+- continue the same review plan until the test
+
+### Reflection:
+
+- I did about the same on this quiz than the last one, as I got a 45/50 this time. I think I just got caught up with stupid mistakes and confusing logic questions. 
+
 ## Week 2
 
 ### Study Plan:
